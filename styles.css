@@ -1,0 +1,338 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;;
+    margin: 0px;
+}
+/* Font styles: light 300 | regular 400 |  medium 500 | bold 700*/
+/* Menu Styles */
+.menu {
+    margin-left: 50px;
+}
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    float: left;
+    width: 100px;
+    margin-left: 50px;
+}
+.clearboth {
+    clear: both;
+}
+
+.menu a {
+    text-decoration: none;
+    text-align: center;
+    color: #1b1b1b;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.menu a:hover {
+    border-bottom: 2px solid #FFFC00; /*Snapchat Yellow*/
+}
+nav {
+    width: auto;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 10px -6px #3d3d3d;
+    background-color: rgba(255, 255, 255, 0.973);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.space {
+    width: auto;
+    height: 110px;
+}
+
+/* Home Section Styles */
+section {
+    width: auto;
+}
+.home-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home-txt {
+    width: 500px;
+}
+.home-txt h3 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.home-txt h1 {
+    font-weight: 700;
+    font-size: 5.5rem;
+    margin: 0px;
+    line-height: 1em;
+}
+.home-txt p {
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.home-img img {
+    width: 600px;
+    height: auto;
+}
+.more {
+    width: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+/* About Section Styles */
+#about {
+    background-color: #2B44FF;
+}
+.about .sp {
+    height: 55px;
+    width: auto;
+}
+.about {
+    background-color: #2B44FF;
+}
+.about-txt {
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 10px 80px 10px;
+}
+.about-txt h3 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.about-txt h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 0px;
+}
+.about-txt p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+.about-txt a {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #1b1b1b;
+    background-color: #fff;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+/* Alumni Section Styles */
+.alumni {
+    margin-top: none;
+}
+.alumni .sp {
+    background-color: #fff;
+    height: 55px;
+}
+.alumni-header {
+    text-align: center;
+}
+.alumni-header h3 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.alumni-header h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 0px;
+}
+.alumni-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.alumni-box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 30px;
+}
+.grad1-img {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    /* background-image: url("media/grad1.png"); */
+    background-color: #3d3d3d;
+    border-radius: 5px;
+}
+.grad2-img {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    /* background-image: url("media/grad1.png"); */
+    background-color: #3d3d3d;
+    border-radius: 5px;
+}
+.grad3-img {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    /* background-image: url("media/grad1.png"); */
+    background-color: #3d3d3d;
+    border-radius: 5px;
+}
+.name {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.alumni a {
+    width: 60px;
+    margin: 0px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+.alumni-btn {
+    width: 165px;
+    margin: 50px auto 80px auto;
+}
+/* Event Section Styles */
+#events {
+    background-color: #2B44FF;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.event-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.event-txt {
+    width: 600px;
+}
+.event-txt h3 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.event-txt h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 0px;
+}
+.event-txt .name {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.event-txt p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.event-txt a {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #1b1b1b;
+    background-color: #fff;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+.event-img {
+    /* background-image: url("media/flyer.png"); */
+    background: #3d3d3d;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+
+/* Contact Section Styles */
+#contact {
+    height: 55px;
+    width: auto;
+}
+.contact {
+    width: 800px;
+    margin: 0px auto 80px auto;
+}
+.contact-header {
+    text-align: center;
+}
+.contact-header h3 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.contact-header h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.contact-form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-form input {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.contact-form textarea {
+    width: 498px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.form-item button {
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 30px;
+    font-size: 1rem;
+    margin: 5px;
+}
+#form-btns {
+    width: 245px;
+    margin: 5px auto;
+}
+
+/* Footer Section Styles */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p {
+    font-weight: 300;
+    font-size: 1rem;
+}
